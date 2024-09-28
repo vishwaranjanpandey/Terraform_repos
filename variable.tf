@@ -1,16 +1,16 @@
 variable "vpc_cidr" {
-  type = string
+  type        = string
   description = "devops project vpc"
 }
 
 
 variable "vpc_name" {
-  type = string
+  type        = string
   description = "DevOps Project 1 VPC 1"
 }
 
 variable "availability_zone" {
-  type = list(string)
+  type        = list(string)
   description = "Availability Zones"
 }
 
